@@ -48,31 +48,6 @@ Patients interact with the kiosk using voice or touch in **Hindi, Telugu, or Eng
 
 ---
 
-## 🛠️ How to Run Locally
-
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-
-### 1. Backend (FastAPI)
-```bash
-cd backend
-pip install -r requirements.txt
-cp .env.example .env   # Add your Gemini & Bhashini API keys in .env
-uvicorn main:app --reload --port 8000
-```
-API Documentation: `http://localhost:8000/docs`
-
-### 2. Frontend (React + Vite)
-```bash
-cd frontend
-npm install
-npm run dev
-```
-Open in browser: `http://localhost:5173`
-
----
-
 ## 📁 Project Structure
 
 ```
